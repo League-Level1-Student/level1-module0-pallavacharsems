@@ -59,7 +59,7 @@ public class DrumKit implements MouseListener {
 		// your drum image?
 		ice.pack();
 		// 13. add this mouse listener to drumLabelWithImage
-
+drumLabelWithImage.addMouseListener(this);
 		// 18. Add more images to make a drumkit. Remember to add this mouse
 		// listener to each one.
 
