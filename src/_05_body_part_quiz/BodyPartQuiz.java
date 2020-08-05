@@ -64,7 +64,7 @@ public class BodyPartQuiz {
 		guess = JOptionPane.showInputDialog("who is this?");
 		if (guess.equalsIgnoreCase("Arnold Schwarzenegger")) {
 			score = score + 1;
-			JOptionPane.showMessageDialog(null, "Your score is " + score + " !");
+			JOptionPane.showMessageDialog(null, "Your score is " + score + "!");
 		} else {
 			JOptionPane.showMessageDialog(null, "The correct answer is Arnold Schwarzenegger!");
 		}
@@ -72,7 +72,7 @@ public class BodyPartQuiz {
 		guess = JOptionPane.showInputDialog("who is this?");
 		if (guess.equalsIgnoreCase("Leonardo DiCaprio")) {
 			score = score + 1;
-			JOptionPane.showMessageDialog(null, "Your score is " + score + " !");
+			JOptionPane.showMessageDialog(null, "Your score is " + score + "!");
 		} else {
 			JOptionPane.showMessageDialog(null, "The correct answer is Leonardo DiCaprio!");
 		}
@@ -80,7 +80,7 @@ public class BodyPartQuiz {
 		guess = JOptionPane.showInputDialog("who is this?");
 		if (guess.equalsIgnoreCase("Morgan Freeman")) {
 			score = score + 1;
-			JOptionPane.showMessageDialog(null, "Your score is " + score + " !");
+			JOptionPane.showMessageDialog(null, "Your score is " + score + "!");
 		} else {
 			JOptionPane.showMessageDialog(null, "The correct answer is Morgan Freeman!");
 		}
@@ -88,7 +88,7 @@ public class BodyPartQuiz {
 		guess = JOptionPane.showInputDialog("who is this?");
 		if (guess.equalsIgnoreCase("Jack Black")) {
 			score = score + 1;
-			JOptionPane.showMessageDialog(null, "Your score is " + score + " !");
+			JOptionPane.showMessageDialog(null, "Your score is " + score + "!");
 		} else {
 			JOptionPane.showMessageDialog(null, "The correct answer is Jack Black!");
 		}
