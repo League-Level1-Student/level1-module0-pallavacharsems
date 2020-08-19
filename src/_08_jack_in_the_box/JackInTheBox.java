@@ -14,8 +14,14 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class JackInTheBox implements ActionListener {
+	private int count;
+	public int getCount() {
+		return count;
+	}
+
+	
+    
 	public void showButton() {
-		int c = 1;
 		JButton button = new JButton("Surprise");
 		button.setVisible(true);
 		JFrame ice = new JFrame();
@@ -26,8 +32,10 @@ public class JackInTheBox implements ActionListener {
 		ic.add(button);
 		ice.add(ic);
 		ic.add(x);
-		ice.pack();
+		ice.pack();	
 		button.addActionListener(this);
+	    
+			
 
 	}
 
@@ -73,7 +81,15 @@ public class JackInTheBox implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		showPicture("jackInTheBox.png");
+       
+		if(count == 4) {
+			showPicture("jackInTheBox.png");
+			playSound("homer-woohoo.wav");
+			count=0;
+       } else {
+    	   count = count+1;
+       }
+        
 	}
 
 }
